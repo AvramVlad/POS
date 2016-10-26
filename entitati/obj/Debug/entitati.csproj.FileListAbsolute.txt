@@ -1,0 +1,14 @@
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\entitati\bin\Debug\entitati.dll
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\entitati\bin\Debug\entitati.pdb
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\entitati\obj\Debug\entitati.dll
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\entitati\obj\Debug\entitati.pdb
+G:\lab2\POS\entitati\bin\Debug\entitati.dll
+G:\lab2\POS\entitati\bin\Debug\entitati.pdb
+G:\lab2\POS\entitati\obj\Debug\entitati.csprojResolveAssemblyReference.cache
+G:\lab2\POS\entitati\obj\Debug\entitati.dll
+G:\lab2\POS\entitati\obj\Debug\entitati.pdb
+C:\Users\Vlad\Desktop\lab2\POS\entitati\bin\Debug\entitati.dll
+C:\Users\Vlad\Desktop\lab2\POS\entitati\bin\Debug\entitati.pdb
+C:\Users\Vlad\Desktop\lab2\POS\entitati\obj\Debug\entitati.csprojResolveAssemblyReference.cache
+C:\Users\Vlad\Desktop\lab2\POS\entitati\obj\Debug\entitati.dll
+C:\Users\Vlad\Desktop\lab2\POS\entitati\obj\Debug\entitati.pdb

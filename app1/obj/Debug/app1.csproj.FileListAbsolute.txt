@@ -1,0 +1,24 @@
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\bin\Debug\app1.exe.config
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\bin\Debug\app1.exe
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\bin\Debug\app1.pdb
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\bin\Debug\entitati.dll
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\bin\Debug\entitati.pdb
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\obj\Debug\app1.csprojResolveAssemblyReference.cache
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\obj\Debug\app1.exe
+\\ctidc1.cti.uoradea\Students\cti14\cti14c108\My Documents\BD_POO\POO\lab2\POS\app1\obj\Debug\app1.pdb
+G:\lab2\POS\app1\bin\Debug\app1.exe.config
+G:\lab2\POS\app1\obj\Debug\app1.exe
+G:\lab2\POS\app1\obj\Debug\app1.pdb
+G:\lab2\POS\app1\bin\Debug\app1.exe
+G:\lab2\POS\app1\bin\Debug\app1.pdb
+G:\lab2\POS\app1\bin\Debug\entitati.dll
+G:\lab2\POS\app1\bin\Debug\entitati.pdb
+G:\lab2\POS\app1\obj\Debug\app1.csprojResolveAssemblyReference.cache
+C:\Users\Vlad\Desktop\lab2\POS\app1\bin\Debug\app1.exe.config
+C:\Users\Vlad\Desktop\lab2\POS\app1\obj\Debug\app1.exe
+C:\Users\Vlad\Desktop\lab2\POS\app1\obj\Debug\app1.pdb
+C:\Users\Vlad\Desktop\lab2\POS\app1\bin\Debug\app1.exe
+C:\Users\Vlad\Desktop\lab2\POS\app1\bin\Debug\app1.pdb
+C:\Users\Vlad\Desktop\lab2\POS\app1\bin\Debug\entitati.dll
+C:\Users\Vlad\Desktop\lab2\POS\app1\bin\Debug\entitati.pdb
+C:\Users\Vlad\Desktop\lab2\POS\app1\obj\Debug\app1.csprojResolveAssemblyReference.cache
