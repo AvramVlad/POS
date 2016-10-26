@@ -18,10 +18,11 @@ namespace app1
                 Console.WriteLine("2 - Servicii");
                 Console.WriteLine("0 - Iesire\n\n\n");
 
-                Console.WriteLine("Optiune: ");
+                Console.Write("Optiune: ");
 
                 input = int.Parse(Console.ReadLine());
-                Console.WriteLine();
+      
+
                 switch (input)
                 {
                    
@@ -37,7 +38,7 @@ namespace app1
                     // citim serviciile   
                     for (int cnt = 0; cnt < nrProduse; cnt++)
                     {
-                        Console.WriteLine("Introdu un produs: \n");
+                        Console.Write("Introdu un produs:");
                         Console.Write("Numele: ");
                         String nume = Console.ReadLine();
                         Console.Write("Codul intern:");
