@@ -35,7 +35,7 @@ namespace app1
 
                             produseManager.ReadProdus();
 
-                            produseManager.ReadProduse(10);
+                            produseManager.ReadProduse(1);
                             break;
                         }
 
