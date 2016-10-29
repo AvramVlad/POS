@@ -19,9 +19,10 @@ namespace app1
                 Console.WriteLine("2 - Servicii");
                 Console.WriteLine("0 - Iesire\n\n\n");
 
-                Console.WriteLine("Optiune: ");
+                Console.Write("Optiune: ");
 
                 input = int.Parse(Console.ReadLine());
+
 
                 switch (input)
                 {
@@ -100,9 +101,9 @@ namespace app1
                             Console.WriteLine("Serviciile sunt:");
                             int contor = 0;
 
-                            while (servicii[contor] != null)
-                            {
-                                Console.WriteLine(servicii[contor].AltaDescriere());
+                        while (servicii[contor] != null)
+                        {
+                            servicii[contor].Afisare();
 
                                 contor++;
                             }
