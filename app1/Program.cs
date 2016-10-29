@@ -11,6 +11,7 @@ namespace app1
     {
         static void Main(string[] args)
         {
+            ProdusMgr produseManager = new ProdusMgr();
             int input;
             do
             {
@@ -30,73 +31,13 @@ namespace app1
                     case 1:
 
                         {
+                            produseManager.WriteProduse();
 
-                            Console.Write("Nr. produse:");
-                            int nrProduse = int.Parse(Console.ReadLine());
-                            // array de servicii   
-                            Produs[] produse = new Produs[100];
-                            // citim serviciile   
-                            for (int cnt = 0; cnt < nrProduse; cnt++)
-                            {
-                                Console.Write("Introdu un produs:");
-                                Console.Write("Numele: ");
-                                String nume = Console.ReadLine();
-                                Console.Write("Codul intern:");
-                                String codIntern = Console.ReadLine();
-                                Console.Write("Producator: ");
-                                String producator = Console.ReadLine();
+                            produseManager.ReadProdus();
 
-                                Produs prod = new Produs(cnt, nume, codIntern, producator);
-
-
-
-                                //verifica daca numele a 2 produse sunt identice ------------------
-                                bool exists = false;
-                                int counter = 0;
-                                if (produse[0] == null)
-                                {
-                                    produse[0] = prod;
-                                }
-                                else
-                                {
-                                    while (produse[counter] != null)
-                                    {
-                                        if (produse[counter].Nume.Equals(prod.Nume))
-                                        {
-                                            Console.WriteLine("Produsul {0} exista deja", prod.Nume);
-                                            exists = true;
-                                            cnt--;
-                                            nrProduse--;
-                                            break;
-                                        }
-                                        counter++;
-                                    }
-                                    if (exists == false)
-                                    {
-                                        produse[cnt] = prod;
-                                    }
-                                }
-
-                                //---------------------------------------------
-
-
-
-                            }
-                            // afisam serviciile
-                            Console.WriteLine("Produsele sunt:");
-                            int contor = 0;
-
-                            while (produse[contor] != null)
-                            {
-                                produse[contor].Afisare();
-
-                                contor++;
-                            }
-                            Console.ReadKey();
-
+                            produseManager.ReadProduse(10);
                             break;
                         }
-
 
                     case 2:
                         {
@@ -160,9 +101,9 @@ namespace app1
                             Console.WriteLine("Serviciile sunt:");
                             int contor = 0;
 
-                            while (servicii[contor] != null)
-                            {
-                                servicii[contor].Afisare();
+                        while (servicii[contor] != null)
+                        {
+                            servicii[contor].Afisare();
 
                                 contor++;
                             }
