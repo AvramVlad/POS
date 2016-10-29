@@ -6,62 +6,18 @@ using System.Threading.Tasks;
 
 namespace entitati
 {
-    public class Serviciu
+    public class Serviciu : ProdusAbstract
     {
-        private long id;// identificator   
-        private String nume;// numele produsului  
-        private String codIntern;// codul Intern  
-
-        public void Afisare()
+        public Serviciu(int unId, String unNume, String unCodIntern) : base(unId, unNume, unCodIntern)
         {
-            Console.WriteLine(" {0}  {1} " , Nume, CodIntern);
         }
 
-        public long Id
+        public override void Descriere()
         {
-            get
-            {
-                return id;
-            }
-
-            set
-            {
-                id = value;
-            }
+            Console.WriteLine("ID : " + ID + " Nume : " + Nume + " Cod Intern : " + CodIntern);
         }
 
-        public string Nume
-        {
-            get
-            {
-                return nume;
-            }
+      
 
-            set
-            {
-                nume = value;
-            }
-        }
-
-        public string CodIntern
-        {
-            get
-            {
-                return codIntern;
-            }
-
-            set
-            {
-                codIntern = value;
-            }
-        }
-        public Serviciu(long unId, String unNume, String unCodIntern)
-
-        {
-            this.Id = unId;
-            this.Nume = unNume;
-            this.CodIntern = unCodIntern;
-
-        }
     }
 }

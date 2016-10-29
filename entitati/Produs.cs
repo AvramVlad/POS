@@ -6,76 +6,24 @@ using System.Threading.Tasks;
 
 namespace entitati
 {
-    public class Produs
+    public class Produs : ProdusAbstract
     {
-        private long id;// identificator   
-        private String nume;// numele produsului  
-        private String codIntern;// codul Intern  
-        private String producator;// producator  
+        public String Producator { get; set; }
 
-        public void Afisare()
+        public Produs(int ID, string CodIntern, string Nume, String Producator) : base(ID, CodIntern, Nume)
         {
-            Console.WriteLine("{0} {1} {2} ", Nume, CodIntern, Producator);
-        }
-        public long Id
-        {
-            get
-            {
-                return id;
-            }
+            this.Producator = Producator;
 
-            set
-            {
-                id = value;
-            }
         }
 
-        public string Nume
+        public override void Descriere()
         {
-            get
-            {
-                return nume;
-            }
-
-            set
-            {
-                nume = value;
-            }
+            Console.WriteLine("ID  : " + ID + " Nume : " + Nume + " Cod Intern : " + CodIntern + " Producator :" + Producator);
         }
 
-        public string CodIntern
+        public override string AltaDescriere()
         {
-            get
-            {
-                return codIntern;
-            }
-
-            set
-            {
-                codIntern = value;
-            }
-        }
-
-        public string Producator
-        {
-            get
-            {
-                return producator;
-            }
-
-            set
-            {
-                producator = value;
-            }
-
-        }
-        public Produs(long unId, String unNume, String unCodIntern, String unProducator)
-        {
-            this.Id = unId;
-            this.Nume = unNume;
-            this.CodIntern = unCodIntern;
-            this.Producator = unProducator;
+            return base.AltaDescriere() + " Producator : " + Producator;
         }
     }
-
 }
