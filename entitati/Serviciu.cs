@@ -8,7 +8,7 @@ namespace entitati
 {
     public class Serviciu : ProdusAbstract
     {
-        public Serviciu(int unId, String unNume, String unCodIntern) : base(unId, unNume, unCodIntern)
+        public Serviciu(int unId, String unNume, String unCodIntern) : base(unId, unCodIntern, unNume)
         {
         }
 
